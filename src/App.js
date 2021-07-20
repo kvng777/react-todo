@@ -8,6 +8,8 @@ import ToDoList from './components/ToDoList';
 function App() {
   const [inputText, setInputText ] = useState('');
   const [todos, setTodos] = useState([]); //arrays
+
+  console.log(setTodos);
   return (
      <div className="App">
        <header>
